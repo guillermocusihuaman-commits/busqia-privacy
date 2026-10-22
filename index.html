@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad (Privacy Policy) — BusqIA Chrome Extension</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --border: #e2e8f0;
+      --accent: #2563eb;
+      --accent-soft: #eff6ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    header {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      padding: 20px 24px;
+    }
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+    .badge {
+      display: inline-block;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-weight: 700;
+      font-size: 12px;
+      padding: 4px 12px;
+      border-radius: 999px;
+      border: 1px solid #bfdbfe;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 28px;
+      margin: 0 0 8px;
+      letter-spacing: -0.02em;
+    }
+    h2 {
+      font-size: 18px;
+      margin: 28px 0 10px;
+      color: var(--text);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+    p, li {
+      color: var(--muted);
+      font-size: 15px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px 32px;
+      box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+      margin-top: 24px;
+    }
+    .highlight-box {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      color: #166534;
+      padding: 16px 20px;
+      border-radius: 12px;
+      font-size: 14px;
+      margin: 16px 0;
+    }
+    code {
+      background: #f1f5f9;
+      padding: 2px 6px;
+      border-radius: 6px;
+      font-size: 13px;
+      color: #0f172a;
+    }
+    footer {
+      text-align: center;
+      font-size: 13px;
+      color: #64748b;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="max-width: 820px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+      <strong style="font-size: 18px; color: #0f172a;">BusqIA — Política de Privacidad / Privacy Policy</strong>
+      <span style="font-size: 13px; color: #64748b;">Chrome Web Store Official Policy</span>
+    </div>
+  </header>
+
+  <main class="container">
+    <span class="badge">Documento Oficial de Privacidad de Datos</span>
+    <h1>Política de Privacidad — BusqIA: Piloto Automático de Empleo en LinkedIn</h1>
+    <p><strong>Última actualización (Last updated):</strong> 22 de Octubre de 2026 | <strong>Item ID:</strong> <code>bkojjlpiglicolebjfjcpbopmaknnilc</code></p>
+
+    <div class="card">
+      <div class="highlight-box">
+        <strong>Declaración de Uso Limitado de Chrome Web Store (Chrome Web Store Limited Use Disclosure):</strong><br/>
+        El uso que hace <em>BusqIA - Piloto Automático de Empleo en LinkedIn</em> de la información recibida de las APIs de Google Chrome cumple estrictamente con la Política de Datos de Usuario de Chrome Web Store (Chrome Web Store User Data Policy), incluidos los requisitos de Uso Limitado (Limited Use). Nunca vendemos, alquilamos ni transferimos datos personales a terceros.
+      </div>
+
+      <h2>1. ¿Qué datos recopilamos? (What Data We Collect)</h2>
+      <p>Para ejecutar la automatización de postulaciones laborales en LinkedIn autorizada por el usuario, BusqIA procesa únicamente la siguiente información proporcionada por el propio usuario:</p>
+      <ul>
+        <li><strong>Datos de perfil profesional y CV:</strong> Nombre completo, correo electrónico, teléfono de contacto, documento de identidad (opcional), ciudad/distrito de residencia, expectativas salariales, nivel de inglés, nivel educativo y años de experiencia extraídos del CV del usuario.</li>
+        <li><strong>Estado de sesión en LinkedIn:</strong> Verificación de sesión activa en <code>linkedin.com</code> mediante cookies del navegador para confirmar que el usuario ha iniciado sesión antes de ejecutar postulaciones de Solicitud Sencilla (<em>Easy Apply</em>).</li>
+        <li><strong>Historial de postulaciones:</strong> Título de la vacante, empresa, URL de la oferta en LinkedIn y respuestas enviadas en los formularios de postulación para mostrarlas en el panel de seguimiento del usuario.</li>
+      </ul>
+
+      <h2>2. ¿Cómo utilizamos los datos y justificación de permisos? (How Data Is Used &amp; Permissions)</h2>
+      <ul>
+        <li><code>storage</code>: Almacena localmente en el navegador del usuario el estado del piloto automático y el progreso diario de postulaciones.</li>
+        <li><code>tabs</code> y <code>activeTab</code>: Permite abrir y coordinar la pestaña de búsqueda de empleos de LinkedIn cuando el usuario inicia el piloto automático.</li>
+        <li><code>scripting</code> y acceso a <code>https://*.linkedin.com/*</code>: Permite completar automáticamente los campos de los formularios de Solicitud Sencilla (<em>Easy Apply</em>) en LinkedIn utilizando los datos del perfil del usuario.</li>
+        <li><code>cookies</code>: Verifica si el usuario tiene una sesión activa en LinkedIn y consulta el estado de vacantes previamente postuladas desde el propio navegador del usuario.</li>
+        <li><code>debugger</code>: Se utiliza únicamente durante la sesión activa de postulación para despachar clics confiables en los botones del modal de Solicitud Sencilla de LinkedIn cuando el usuario ejecuta el piloto automático.</li>
+      </ul>
+
+      <h2>3. Almacenamiento y Seguridad de los Datos (Data Storage &amp; Security)</h2>
+      <p>Toda la transmisión de información entre la extensión de Chrome y la aplicación web de BusqIA se realiza de forma cifrada mediante HTTPS (TLS/SSL). No almacenamos contraseñas de LinkedIn ni recopilamos historial de navegación fuera de las páginas de empleo de LinkedIn y el panel de BusqIA.</p>
+
+      <h2>4. Compartición con Terceros (Data Sharing &amp; Third Parties)</h2>
+      <ul>
+        <li><strong>No vendemos datos a terceros:</strong> BusqIA no vende, comercializa ni transfiere datos personales a corredores de datos, redes publicitarias ni terceros.</li>
+        <li><strong>Uso exclusivo para la funcionalidad principal:</strong> Los datos del usuario solo se envían a los formularios de postulación en LinkedIn a los que el usuario decide postular mediante la extensión.</li>
+        <li><strong>Sin fines crediticios o publicitarios:</strong> Los datos nunca se utilizan para determinar solvencia crediticia, préstamos ni publicidad personalizada.</li>
+      </ul>
+
+      <h2>5. Retención y Eliminación de Datos (Data Retention &amp; Deletion)</h2>
+      <p>El usuario conserva el control total sobre sus datos en todo momento. Puede modificar los datos de su perfil, eliminar su historial de postulaciones o solicitar el borrado definitivo de su cuenta y currículum escribiendo a nuestro correo de soporte. Al desinstalar la extensión de Chrome, todos los datos locales almacenados en <code>chrome.storage</code> se eliminan automáticamente del navegador.</p>
+
+      <h2>6. English Summary (For Chrome Web Store Review Team)</h2>
+      <p><strong>BusqIA - Piloto Automático de Empleo en LinkedIn</strong> is a single-purpose Chrome extension that helps job seekers automatically fill and submit LinkedIn "Easy Apply" job applications using their own resume and profile details.</p>
+      <ul>
+        <li><strong>Data Collected:</strong> User-provided resume/profile fields (name, email, phone, location, salary expectation, work experience) and job application history (job title, company, application answers).</li>
+        <li><strong>How Data Is Stored &amp; Transmitted:</strong> Stored locally via <code>chrome.storage</code> and synced over HTTPS with the user's authenticated BusqIA dashboard solely to display their job application tracker.</li>
+        <li><strong>Third-Party Sharing:</strong> We do <strong>NOT</strong> sell, rent, or share user data with any third parties. Data is only used to complete LinkedIn Easy Apply forms initiated by the user.</li>
+        <li><strong>Limited Use Compliance:</strong> The use of information received from Google APIs adheres to the Chrome Web Store User Data Policy, including the Limited Use requirements.</li>
+      </ul>
+
+      <h2>7. Contacto (Contact Information)</h2>
+      <p>Si tienes preguntas sobre esta Política de Privacidad o deseas solicitar la eliminación de tus datos, contáctanos en:</p>
+      <p>
+        <strong>Email:</strong> <a href="mailto:guillermocusihuaman@gmail.com">guillermocusihuaman@gmail.com</a><br/>
+        <strong>Desarrollador / Publisher:</strong> Guillermo Cusihuaman — BusqIA
+      </p>
+    </div>
+
+    <footer>
+      © 2026 BusqIA. Todos los derechos reservados.
+    </footer>
+  </main>
+</body>
+</html>
